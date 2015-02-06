@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0"
+    android:background="#FFCD3440">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFCD3440">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="漢"
+            android:textSize="50pt"
+            android:id="@+id/textView2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:transitionName="@string/abc_searchview_description_voice"
+            android:theme="@style/Base.Widget.AppCompat.ActionButton.Overflow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="KANJI CRUSH"
+            android:id="@+id/textView3"
+
+            android:textStyle="bold"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/background_dark" />
+    </RelativeLayout>
+</LinearLayout>
